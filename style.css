@@ -1,0 +1,310 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+
+.container{
+    width: 100%;
+    height: 100vh;
+    /* padding: 50px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* padding-left: 75px; */
+    
+
+}
+
+
+.navbar{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    
+
+    
+}
+
+.img-logo{
+    width: 25%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-logo img{
+    width: 50%;
+}
+
+
+.first-ul{
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+
+.first-ul ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+    
+
+
+}
+
+.btn1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 55px;
+    gap: 25px;
+
+}
+
+.btn1 button{
+    width: 18%;
+    height: 25px;
+    border: none;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    border: 1px solid #898B8A;
+    
+}
+
+.container2{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+
+.left-part{
+    width: 50%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: red; */
+}
+
+.left-part {
+    /* padding: 30px; */
+    /* padding-block: 95px; */
+    line-height: 20px;
+    
+
+
+}
+
+.left-part h1{
+    font-size: 45px;
+}
+
+.left-part p{
+    padding-block: 25px;
+}
+
+
+
+
+.right-part{
+    width: 50%;
+    height: 90vh;
+    /* background-color: aqua; */
+}
+
+
+.right-part img{
+    width: 75%;
+}
+
+
+.btn-s{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: red; */
+}
+
+
+
+.btn2{
+    /* width: 35%; */
+    height: 25px;
+    border-radius: 5px;
+     border: 1px solid #898B8A;
+    /* background-color: #87ED82; */
+}
+.btn2:hover{
+  color: blue;
+}
+
+
+.btn3{
+    width: 20%;
+    height: 25px;
+    border-radius: 5px;
+    background-color: #87ED82;
+    border: 1px solid #898B8A;
+}
+
+
+.box-sec{
+    width: 100%;
+    height: auto;
+    /* background-color: #87ED82; */
+    margin-block: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.card{
+    width: 150px;
+    height: 150px;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 16px;
+    border-right: 1px solid #898B8A;
+    border-bottom: 1px solid #898B8A;
+    
+
+
+}
+
+.img-ave{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.img-ave img {
+    width: 45%;
+}
+
+
+
+
+
+.container-3{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-3 hr{
+    
+    width: 80%;
+
+
+}
+
+@media (max-width:480px) {
+    .container{
+        width: 100%;
+        height: auto;
+    }
+    .navbar{
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+    .img-logo{
+        width: 50%;
+    }
+    .first-ul{
+        display: none;
+    }
+    .btn1{
+        width: 50%;
+
+    }
+    .btn1 button{
+        width: 50%;
+        font-size: 12px;
+    }
+    .container2{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .left-part{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+
+
+    .left-part h1{
+        font-size: 30px;
+        padding: 5px;
+    }
+
+
+    .btn-s{
+        width: 100%;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+     .box-sec{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+     }
+
+    .right-part{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .img-ave{
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+    .img-ave img{
+    width: 60%;
+    
+    
+
+    }
+}
+
+
+
+
+
+
